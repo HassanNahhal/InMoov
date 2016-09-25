@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/handimage"
+    >
+
+    <ToggleButton
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/thumbTbtn"
+        android:checked="false"
+        android:textOff="Thumb"
+        android:textOn="Thumb"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        />
+
+    <ToggleButton
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/groomingTbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/thumbTbtn"
+        android:checked="false"
+        android:textOff="Index"
+        android:textOn="Index"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <ToggleButton
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/middleTbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/groomingTbtn"
+        android:checked="false"
+        android:textOff="Middle"
+        android:textOn="Middle"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <ToggleButton
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/ringTbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/middleTbtn"
+        android:checked="false"
+        android:textOn="Ring"
+        android:textOff="Ring"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <ToggleButton
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/littleTbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/ringTbtn"
+        android:checked="false"
+        android:textOff="Pinky"
+        android:textOn="Pinky"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/allTbtn"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:checked="false"
+        android:textOff="All"
+        android:textOn="All"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
