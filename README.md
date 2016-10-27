@@ -4,8 +4,7 @@ InMoov is an open source humanoid robot which was 3D printed. This repo is an An
 
 
 
-![Alt text](https://github.com/HassanNahhal/InMoov/blob/master/Images/IMG_20150717_113439.jpg?raw=true "Optional Title")
+![Alt text](https://github.com/HassanNahhal/InMoov/blob/master/Images/IMG_20150717_113439.jpg?raw=true “3D printed hand”)
+![Alt text](https://github.com/HassanNahhal/InMoov/blob/master/Images/Screenshot_20161027-141801.jpg?raw=true “InMoov mobile app”)
 
-<img src="https://github.com/HassanNahhal/InMoov/blob/master/Images/IMG_20150717_113439.jpg” width=“40”>
-<img src="https://github.com/HassanNahhal/InMoov/blob/master/Images/Screenshot_20160925-171837.png" width=“40”>
 
